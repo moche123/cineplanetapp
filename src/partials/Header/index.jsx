@@ -35,7 +35,7 @@ const Header = ({ isUserSignedIn,setIsUserSignedIn,modeLogin,setModeLogin }) => 
                 </div>
 
                 <ul className='hidden md:flex gap-8 p-6 uppercase'>
-                    <li><Link to='/'>Home</Link></li>
+                    <li ><Link to='/'>Home</Link></li>
                     {/* <li><Link to='/'>Home</Link></li> */}
                     {
                         isUserSignedIn ? <li><Link to='/dulceria'>Dulcería</Link></li> : <li><Link to='/login'>Dulcería</Link></li>
@@ -65,7 +65,7 @@ const Header = ({ isUserSignedIn,setIsUserSignedIn,modeLogin,setModeLogin }) => 
 
                 </ul>
 
-                <MenuItems showMenu={showMenu} active={active} isUserSignedIn={isUserSignedIn} />
+                <MenuItems showMenu={showMenu} active={active} setIsUserSignedIn={setIsUserSignedIn} isUserSignedIn={isUserSignedIn} modeLogin={modeLogin} setModeLogin={setModeLogin} />
 
             </nav>
 
