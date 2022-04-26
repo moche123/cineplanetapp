@@ -1,0 +1,40 @@
+
+.imagen{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;}
+.textLoading{
+    font-size: larger;
+}
+
+.loading{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.contenido{
+    height: 600px;
+}
+
+.cuenta{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.total{
+    margin-right: 500px;
+    background-color: aqua;
+    position: fixed;
+}
+
+@media screen and (max-width: 800px) {
+    .contenido{
+        height: 630px;
+    }
+    .totalpreciofinal{
+        margin-bottom: 20px;
+    }
+}

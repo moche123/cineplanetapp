@@ -1,0 +1,14 @@
+
+.page{
+    padding-top: 100px;padding-bottom: 20px;
+}
+.warning {
+    border-bottom: 1px solid red !important
+}
+
+@media screen and (max-width: 400px) {
+    .page{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
